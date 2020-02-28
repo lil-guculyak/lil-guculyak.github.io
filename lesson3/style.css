@@ -1,0 +1,45 @@
+.container1 {
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    background-color:  #A52A2A ;
+    width: auto;
+
+  }
+ # website_img {
+    width: 100%;
+}
+.container2 {
+    font-size: 18px;
+}
+.container3 {
+    text-align: center;
+    	
+}
+#car01 {
+    border-style: dashed   
+}
+#car02 {
+    border-style: dashed 
+}  
+#car03 {
+        border-style: dashed
+    }
+#car04 {
+            border-style: dashed 
+}  
+ #car05 {
+                border-style: dashed }  
+.container4 {
+    width: auto;
+    font-size: 18px;
+ }
+.footer {
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    background-color:  black ;
+    width: auto;
+    font-size: 20px;
+    margin-bottom:25px;
+}
