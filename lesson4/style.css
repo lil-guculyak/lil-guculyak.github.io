@@ -1,0 +1,124 @@
+.head1 {
+  margin-top: 143px;
+  font-weight: bold;
+  font-family: Montserrat;
+  font-size: 12px;
+       text-align: center;
+  color: #898f99;
+}
+.head2 {
+  height: 36px;
+  font-family: Montserrat;
+  font-size: 48px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.63;
+  letter-spacing: 4.8px;
+  text-align: center;
+  color: #0ec8cb;
+}
+.head3 {
+
+  font-family: PT Sans;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+    letter-spacing: normal;
+  text-align: center;
+  color: #999999;
+    }
+  
+.container1 {
+  display: flex;
+  width: 944px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 108px;
+ }
+.tab {
+    text-align: center;
+    background-color: #f7f7f7;
+    width: 236px;
+    height: 420px;
+    border: solid 1px #ececec;
+        }
+    .tab:hover {
+background-color: #0ec8cb;
+    }
+
+div [class^=roll] {
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    width: 64;
+    height: 66px;
+    margin-top: 55px;
+    }
+
+div [class$=l_1] {
+background-image: url(anchor.png);
+}
+.tab:hover .roll_1 {
+  background-image: url(anchor_inv.png);
+ 
+}
+
+div [class$=l_2] {
+  background-image: url(diamond.png);
+    }
+  .tab:hover .roll_2 {
+    background-image: url(diamond_inv.png);
+    background-repeat: no-repeat;
+  }
+  div [class$=l_3] {
+    background-image: url(eyeglasses.png);
+    }
+    .tab:hover .roll_3 {
+      background-image: url(eyeglasses_inv.png);
+      background-repeat: no-repeat;
+    }
+    div [class$=l_4] {
+      background-image: url(monitor.png);
+    }
+      .tab:hover .roll_4 {
+        background-image: url(monitor_inv.png);
+        background-repeat: no-repeat;
+      }
+.text1 {
+  
+  display: flex; 
+  align-items: center;
+  height: 41px;
+  font-family: Montserrat;
+  font-size: 21px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #1b1b1b;
+  padding-top: 42px;
+  margin-left: auto;
+  margin-right: auto;
+  width: min-content;
+   }
+ .tab:hover .text1 {
+    color: #ffffff;
+  }
+.text2 {
+  width: 174px;
+  height: 101px;
+  font-family: PT Sans;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.57;
+  letter-spacing: normal;
+  text-align: center;
+  color: #777777;
+  margin-left: auto;
+  margin-right: auto;
+}
+.tab:hover .text2 {
+  color: #ffffff;
+}
