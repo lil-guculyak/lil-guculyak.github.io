@@ -21,6 +21,7 @@
      margin: 70px 20px; 
      flex-basis: 20%; 
     box-shadow: 0.1em 0.1em 5px rgba(122,122,122,0.5);
+    border-radius: 5px;
     }
                        
 .box-2 {
@@ -33,6 +34,7 @@
      margin: 40px 5px; 
     flex-basis: 20%;
     box-shadow: 0.1em 0.1em 5px rgba(122,122,122,0.5);
+     border-radius: 5px;
     }
         
 .box-3 {
@@ -43,8 +45,9 @@
     flex-grow: 1;
     align-items: center;
     margin: 70px 20px;
-   flex-basis:20%; 
-   box-shadow: 0.1em 0.1em 5px rgba(122,122,122,0.5);
+    flex-basis:20%; 
+    box-shadow: 0.1em 0.1em 5px rgba(122,122,122,0.5);
+    border-radius: 5px;
 }
 
  .price {
@@ -71,7 +74,7 @@
   .color {
     width: 150px;
     height: 80px;
-    font-family: Caveat;
+    font-family: "Trebuchet MS", Trebuchet, Arial, sans-serif;
     font-weight: bold;
     font-stretch: normal;
     font-style: normal;
@@ -89,9 +92,9 @@
     margin: 0 auto;
     padding: 0;
     color: rgb(51, 51, 51);
-    font-family: Montserrat;
+    font-family: "Trebuchet MS", Trebuchet, Arial, sans-serif;
     font-weight: 500;
 }
 
   
-  
+ 
