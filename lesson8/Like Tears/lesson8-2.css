@@ -1,0 +1,151 @@
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Futura PT';
+    src: url(FuturaPT-Bold.ttf);
+}
+
+
+@font-face {
+    font-family: 'ProximaNova';
+    src: url(PlayfairDisplay.ttf)
+}
+
+@font-face {
+    font-family: 'Georgia';
+    src: url(Georgia.ttf);
+}
+
+@font-face {
+    font-family: 'Georgia italic';
+    src: url(Georgia-Italic.ttf);
+}
+body {
+    width: 1200px;
+    height: 900px;
+    margin: 0 auto;
+    background-color: #464f54; 
+}
+
+
+.head1 {
+    
+    position: absolute;
+    top: 47px;
+    right: 0;
+    width: 876px;
+    height: 187px;
+    padding: 20px 20px 40px 60px;
+    text-align: left;
+    box-shadow: -3.5px -3.5px 59px 0 rgba(0, 0, 0, 0.16);
+    background-color: #181818;
+   
+  
+}
+.head2 {
+    position: absolute;
+    top: 235px;
+    right: 0;
+    width: 812px;
+    height: 76px;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: left;
+    box-shadow: -3.5px -3.5px 59px 0 rgba(0, 0, 0, 0.16);
+    background-color: #fbc02d;
+}
+
+.Title {
+     width: 57px;
+    height: 10px;
+    font-family: ProximaNova;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 4.8px;
+     text-align: left;
+     color: #767676;
+    }
+.head1 h2 {
+    width: 342px;
+    height: 40px;
+     font-family: PlayfairDisplay;
+    font-size:45px;
+    line-height: 1.96;
+     letter-spacing: normal;
+     text-align: left;
+    color: #fefefe;
+          
+      }
+ .hr {
+    width: 816px;
+    height: 3px;
+    opacity: 0.1;
+    background-color: #ffffff;
+              
+    }
+      
+.head2 img {
+    padding-left: 32px;
+}
+.container1 {
+   
+    max-width: 1063px;
+    height: 751px;
+    margin: 100px 20px 0px 20px;
+    background-color: #fff;
+    box-shadow: 0 0 3.5rem rgba(0, 0, 0, 0.22);
+     }
+    
+.line {
+
+    border-left: 2px solid #e8eced;
+    margin-left: 30px }       
+    
+    .author {
+   font-family: 'ProximaNova';
+     font-size: 20px;
+     letter-spacing: 4.38px;
+    text-align: left;
+     color: #b4b4b4;
+    text-transform: uppercase;
+    margin: 0 auto;
+    padding-left: 56px;
+    padding-top: 200px;
+     }
+ .Name {
+     font-family: 'Futura PT';
+     font-size: 78px;
+     font-weight: 900;
+     line-height: 0.94;
+     letter-spacing: 4.13px;
+     text-align: left;
+     color: #2a2a2a;
+     margin: 0 auto;
+     padding-left: 52px;
+     padding-top: 27px;
+     }
+.questions {
+     font-family: 'Georgia ';
+     font-size: 30px;
+     font-style: italic;
+     color: #8f8f8f;
+     margin: 0 auto;
+     padding-left: 54px;
+     padding-top: 21px;
+     }
+
+.text {
+     font-family: Georgia;
+     font-size: 27px;
+     line-height: 1.5;
+     text-align: justify;
+     color: #000000;
+     padding-top: 55px;
+     padding-left: 55px;
+     padding-bottom: 0px;
+     }
