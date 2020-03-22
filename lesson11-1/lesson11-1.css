@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 1500px;
+    height: 866px;
+    background-image: url(img.png);
+    background-repeat: no-repeat;    
+    text-align: center;
+}
+h1 {
+  height: 65px;
+  font-family: Raleway;
+  font-size: 90px;
+  font-weight: bold;  
+  line-height: 0.28;  
+  text-align: center;
+  color: #262626;
+  margin-top: 101px;
+}
+.subtitle {
+ font-family: Raleway;
+ font-size: 17px;
+ font-weight: 300;
+ padding: 10px;
+ margin: 0px auto;
+ max-width: 370px;
+}    
+.box {
+    
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+   
+}
+.form {
+    width: 50%;
+    padding: 10px;
+}
+.information {
+    width: 50%;
+    text-align: left;
+    padding-left: 60px;
+}
+h3 {
+  font-family: Raleway;
+  font-size: 20px;
+  font-weight: 300;
+  font-weight: bold;
+  color: #262626;
+
+}
+p {
+    font-family: Raleway;
+    font-size: 17px;   
+    color: #262626;
+}
+
+.info {
+    
+    background-color:#00c4c4;
+    color: white;
+    padding: 15px;
+    border: none;
+    margin-bottom: 10px;
+    width: 500px;
+    height: 50px;
+    opacity: 0.7;   
+    font-family: Raleway;
+   font-size: 15px;
+   text-align: left;
+
+  }
+  input {
+    outline:none;
+}
+  .textarea_info {
+    width: 500px;
+    height: 250px;
+    opacity: 0.7;
+    background-color: #00c4c4;
+    font-family: Raleway;
+    font-size: 15px;    
+    text-align: left;
+    color: #ffffff;
+  }
+  .info:focus {
+    background-color: rgb(30, 137, 156);
+    border-left: 5px solid;
+    border-color: #355b82;
+    color: white;
+}
+
+.info:hover {
+    background-color: rgba(0, 196, 196, 1);
+    
+}
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+    background-color: #262626;
+    color: #b9b9b9;
+    padding: 37px;
+    
+}
+
+span {
+    color: red;
+}

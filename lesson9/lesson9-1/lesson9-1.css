@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container {
+    text-align: center;
+    background-color: #b07cf7;
+    margin: 0 auto;
+}
+h1 {
+     
+     
+     font-family: Raleway;
+     font-size: 90px;
+     font-weight: bold;      
+     text-align: center;
+     color: #ffffff;
+     padding-top: 80px;
+     margin: 0 auto;
+      }
+p {
+   width: 563px;
+  font-family: Raleway;
+  font-size: 17px;
+  font-weight: 300; 
+  text-align: center;
+  color: #ffffff;
+  padding-top: 30px;
+  margin: 0 auto;
+}
+.block {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    flex-wrap: wrap;
+   
+}
+.box1 {
+  width: 370px;
+  height: 310px;
+  box-shadow: 0px 4px 10px 0 rgba(0, 0, 0, 0.5);
+  background-color: #fbfbf7;
+  background: url(img/img1.png);
+  margin: 20px;
+  
+}
+
+.box2 {
+    width: 370px;
+     height: 310px;
+     box-shadow: 0px 2px 5px 0 rgba(0, 0, 0, 0.5);
+     background-color: #fbfbf7;
+     background: url(img/img2.png);
+     margin: 20px;
+   }
+.box3 {
+ width: 370px;
+  height: 310px;
+  box-shadow: 0px 4px 10px 0 rgba(0, 0, 0, 0.5);
+  background-color: #fbfbf7;
+  background: url(img/img3.png);
+  margin: 20px;
+}
+
+.date {
+ width: 60px;
+ height: 60px;
+  opacity: 0.5;
+  border-radius: 5px;
+  background-color: #262626;
+  margin-top: 30px;  
+ margin-left: 30px;
+}
+.number {
+  
+  font-family: Raleway;
+  font-size: 32px;
+  font-weight: bold;   
+  color: #ffffff;
+}
+.months {
+   
+    font-family: Raleway;
+    font-size: 21px;
+    font-weight: 900;
+    color: #ffffff;
+}
+
+.heading {
+       
+     font-family: Raleway;
+     font-size: 20px;
+     font-weight: bold;       
+     text-align: left;
+     color: #ffffff;     
+     padding-top: 130px;
+     padding-left: 20px;
+      }
+
+ .author {
+        font-size: 13px;
+        font-weight: 300;
+        font-family: Raleway;
+        text-align: left;
+        color: #ffffff;
+        padding-left: 20px;
+        padding-top: 5px;
+      }
+
+button {
+ width: 200px;
+ height: 55px;
+ box-shadow: 0px 2px 5px 0 rgba(0, 0, 0, 0.5);
+ background-color: #f72b3b;
+  font-family: Raleway;
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+button:hover {
+    background-color: #392bf7;
+    width: 280px;
+    height: 60px;
+}
+
