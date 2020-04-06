@@ -1,0 +1,80 @@
+
+
+
+.lokal-1 {
+    background-image: url(../img/backgr3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Josefin Sans', sans-serif;
+    height: 700px;
+    padding-top: 229px;
+    padding-bottom: 100px;
+    padding-left: 3%;
+    font-family: 'Josefin Sans', sans-serif;
+    
+   
+   .box {
+    opacity: 0.9;
+    background-color: #232323;  
+    display: flex;
+    flex-direction: column;
+    /*justify-content: space-between;*/
+    width: 540px;
+    
+    color: #ffffff;
+    font-family: "Josefin Sans";
+    padding: 50px 30px;
+   
+    
+  
+   h4{   
+      font-size: 20px;    
+      line-height: 1.3;
+      letter-spacing: 1.5px;
+      text-align: left;
+      color: #e8e8e8;
+      padding-bottom: 30px;
+      
+     }
+     h3{       
+        font-size: 20px;       
+        line-height: 1.3;
+        letter-spacing: normal;
+        text-align: left;
+        color: #ffffff;
+        padding-bottom: 29px;
+     }
+    p {
+        font-family: JosefinSans;
+        font-size: 20px;        
+        line-height: 1.3;
+        letter-spacing: 1.5px;
+        text-align: left;
+        color: #e8e8e8;
+        max-width: 478px;
+        padding-bottom: 48px;
+      }
+      button {
+        width: 225px;
+        height: 60px;
+        background-color: #5474fd;
+        font-family: Aleo;
+        font-size: 16px;        
+        line-height: 1.63;
+        letter-spacing: 1.2px;
+        text-align: center;
+        color: #ffffff;
+        border: none;
+        padding: 23px 62px;
+        
+
+        button :hover {
+            border: 1ps solid white;
+            transform: scale(1.8);
+            cursor: pointer;
+
+        }
+      }
+    }
+   }

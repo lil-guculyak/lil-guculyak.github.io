@@ -1,0 +1,20 @@
+.lokal {
+  background-image: url(../img/backgr3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-family: "Josefin Sans", sans-serif;
+  /* height: 700px;*/
+}
+.lokal .container {
+  background: rgba(42, 39, 41, 0.8);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30%;
+  height: 45%;
+  padding: 3%;
+  color: #ffffff;
+  font-family: "Josefin Sans";
+  font-weight: 300;
+}

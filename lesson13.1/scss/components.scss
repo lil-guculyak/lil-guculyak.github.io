@@ -1,0 +1,35 @@
+%heading {
+    font-family: $font-minor;
+    font-weight: 900;
+}
+
+.heading-1 {
+
+    @extend %heading;
+    font-size: 60px;
+   color: $color-main;
+
+}
+
+.heading-2 {
+    @extend %heading;
+    font-size: 36px;
+    letter-spacing: 0.72px;
+    line-height: 0.67;
+    color: $color-other;
+}
+
+
+.button {
+    font-family: $font-other;
+    font-size: 14px;
+    font-weight: bold;
+    color: $color-other;
+    border: 1px solid $color-main;
+    background-color: transparent;
+
+    &:hover {
+        background-color: $color-main;
+        color: #fff;
+    }
+}

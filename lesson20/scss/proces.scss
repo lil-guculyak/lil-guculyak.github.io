@@ -1,0 +1,50 @@
+.proces {
+    background-image: url(../img/lines.svg);
+    background-repeat: no-repeat;
+    background-position: center 46px;
+    
+    background-color: #333;
+    font-family: 'Aleo', serif;
+    
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+   .box {
+     padding: 68px;
+
+    i {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 72px;
+        width: 96px;
+        margin: 0 auto;
+        background-color: #333;
+        padding-bottom: 15px;
+        
+   } 
+   h2 {
+    font-family: Aleo;
+    font-size: 36px;
+    line-height: 0.72; 
+    text-align: center;
+    color: #e8e8e8;
+    padding-bottom: 119px;                   
+    
+      }
+      .icon-search {
+        color: #5474fd;
+    }
+
+    .icon-check {
+        color: #ff6363;
+    }
+
+    .icon-like {
+        color: #00a2ff;
+    }
+   }
+}

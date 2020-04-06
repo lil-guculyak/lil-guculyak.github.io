@@ -1,0 +1,22 @@
+.response {
+  background-image: url(../img/backgr4.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-family: "Josefin Sans", sans-serif;
+  height: 731px;
+  margin: 0px auto;
+}
+.response .container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.response .container h2 {
+  font-family: Aleo;
+  font-size: 36px;
+  line-height: 0.72;
+  text-align: center;
+  color: #ffffff;
+}
